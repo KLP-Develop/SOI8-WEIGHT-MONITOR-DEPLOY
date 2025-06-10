@@ -25382,13 +25382,11 @@ this.b=b},
 alF:function alF(a){this.a=a},
 alG:function alG(a){this.a=a},
 zw:function zw(a){this.a=a},
-SI:function SI(a,b,c,d){var _=this
+SI:function SI(a,b){var _=this
 _.e=a
 _.w=_.r=null
 _.x=$
 _.y=b
-_.z=c
-_.Q=d
 _.c=_.a=null},
 am8:function am8(a){this.a=a},
 am7:function am7(a){this.a=a},
@@ -85931,7 +85929,7 @@ A.alG.prototype={
 $0(){this.a.r.oU(0,B.yo)},
 $S:0}
 A.zw.prototype={
-af(){return new A.SI(A.b([],t.eb),new A.fc(Date.now(),0,!1),"172.23.10.51:5511","ws://172.23.10.51:5511")}}
+af(){return new A.SI(A.b([],t.eb),new A.fc(Date.now(),0,!1))}}
 A.SI.prototype={
 az(){var s=this
 s.aN()
@@ -85947,7 +85945,7 @@ r===$&&A.a()
 r.aE(0)
 s.aF()},
 LJ(){var s,r,q,p=this
-try{p.r=A.aGP(A.as0(A.k4(p.Q),null))
+try{p.r=A.aGP(A.as0(A.k4("ws://172.23.10.51:5511/ws/WeightMonitor"),null))
 p.ad9()
 r=p.r.r.b
 r===$&&A.a()
