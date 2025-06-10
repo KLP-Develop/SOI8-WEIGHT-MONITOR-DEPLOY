@@ -85931,7 +85931,7 @@ A.alG.prototype={
 $0(){this.a.r.oU(0,B.yo)},
 $S:0}
 A.zw.prototype={
-af(){return new A.SI(A.b([],t.eb),new A.fc(Date.now(),0,!1),"172.23.10.51:6601","ws://172.23.10.51:6601")}}
+af(){return new A.SI(A.b([],t.eb),new A.fc(Date.now(),0,!1),"172.23.10.51:5511","ws://172.23.10.51:5511")}}
 A.SI.prototype={
 az(){var s=this
 s.aN()
